@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.mapbox {
+    float: left;
+    width: 75%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#mainContainer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(53, 53, 53);
+}
+
+/* -- MAP -- */
+#cesiumContainer {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* -- IMAGE/VIDEO -- */
+#sideBar{
+    width: 25%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #33333d;
+    font-family: Helvetica, 'Roboto Slab', serif;
+    float: left;
+    color: #d7d7d9;
+    overflow-y: auto;
+}
+
+.sideContainer{ 
+    margin: 20px;
+}
+
+.cesium-widget-credits{
+    display: none !important;
+}
+
+/* Logger */
+#loggercontainer { 
+    width: 95%; 
+    height: 85vh;
+    display: block;
+    margin: auto;
+    background-color: #282830;
+    overflow-y: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#log-info {
+    color:aqua;
+}
+
+#log-error {
+    color:orange;
+}
+
+#log-fatal {
+    color:red;
+}
+
+#log-warning {
+    color:yellow;
+}
+
+#log-debug {
+    color:lawngreen;
+}
+
+#log-general {
+    color:white;
+}
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>Cesium</title>
+</head>
+
+<body>
+
+    <!--Cesium Map-->
+    <div id="mainContainer">
+        <div class="mapbox">
+            <div id="cesiumContainer"></div>
+        </div>
+        <div id="sideBar">
+            <div class="sideContainer">
+                <h3>Load Traceroute file</h3>
+                <input type="file" id="confFile" name="confFile" accept=".dot, .txt"><br><br>
+            </div>
+            <div class="sideContainer">
+                <div id="loggercontainer">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
